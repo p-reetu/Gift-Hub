@@ -1,4 +1,67 @@
-.navbar{
-    background-color: blueviolet;
-    color: black;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 0px 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 200px; 
+    height: auto;
+}
+
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav-combined-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: var(--violet-3);
+}
+
+
+.nav-button-left,
+.nav-button-right {
+    border: none;
+    padding: 10px 35px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-button-left {
+    background-color: var(--green-2); /* Left button color */
+    border-radius: 0 60% 60% 0;
+}
+
+.nav-button-right {
+    background-color: var(--violet-3); /* Right button color */
+    border-radius: 0 0 0 0;
+}
+
+.nav-button-left:hover,
+.nav-button-right:hover {
+    opacity: 0.8;
+}
+
+.profile-icon {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
 }
