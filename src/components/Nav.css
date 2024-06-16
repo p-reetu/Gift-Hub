@@ -51,6 +51,7 @@
 .nav-button-right {
     background-color: var(--violet-3); /* Right button color */
     border-radius: 0 0 0 0;
+
 }
 
 .nav-button-left:hover,

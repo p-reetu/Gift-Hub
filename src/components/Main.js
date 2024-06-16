@@ -11,5 +11,6 @@ export default function Main(props) {
         <Container className="card-container">
             {props.gifts.map(e => <Card gift={e}/> )}
         </Container>
+
     )
 }
